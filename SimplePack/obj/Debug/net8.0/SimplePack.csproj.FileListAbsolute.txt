@@ -1,0 +1,14 @@
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\bin\Debug\net8.0\SimplePack.exe
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\bin\Debug\net8.0\SimplePack.deps.json
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\bin\Debug\net8.0\SimplePack.runtimeconfig.json
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\bin\Debug\net8.0\SimplePack.dll
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\bin\Debug\net8.0\SimplePack.pdb
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.AssemblyInfoInputs.cache
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.AssemblyInfo.cs
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.csproj.CoreCompileInputs.cache
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.dll
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\refint\SimplePack.dll
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.pdb
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.genruntimeconfig.cache
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\ref\SimplePack.dll
