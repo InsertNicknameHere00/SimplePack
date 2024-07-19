@@ -18,7 +18,7 @@ namespace SimplePack
             Console.WriteLine("If you want to enter: \n -> Give Y as answer;");
             Console.WriteLine();
             Console.WriteLine("If you want to go back to the main menu: \n -> Give N as answer;");
-            String decisionentercheck = Console.ReadLine();
+            string decisionentercheck = Console.ReadLine();
 
             if (decisionentercheck == "Y")
             {
@@ -44,10 +44,14 @@ namespace SimplePack
             Console.Clear();
             Random random = new Random();
 
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("\r\n    __     ___  _ ______ \r\n   / /    / / || |____  |\r\n  / /_   / /| || |_  / / \r\n | '_ \\ / / |__   _|/ /  \r\n | (_) / /     | | / /   \r\n  \\___/_/      |_|/_/    \r\n                         \r\n                         \r\n");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine();
             // Generating the random numbers and putting them in the list!
             for (int i = 0; i < 6; i++)
             {
-                diceNum = random.Next(1, 47);
+                diceNum = random.Next(1, 48);
                 diceList.Add(diceNum);
             }
             Console.WriteLine("Number pulling finished. \n Try to guess the 6 numbers between 1 and 47!");
@@ -93,7 +97,9 @@ namespace SimplePack
         public void replayCheck() {
             Console.Clear();
             Console.WriteLine("------------------------------------");
-            Console.WriteLine("Would you like to play again? Y/N");
+            Console.WriteLine("If you want to play again: \n -> Give Y as answer;");
+            Console.WriteLine();
+            Console.WriteLine("If you want to go back to the main menu: \n -> Give N as answer;");
             string decisionleavecheck = Console.ReadLine();
 
             if (decisionleavecheck == "Y")

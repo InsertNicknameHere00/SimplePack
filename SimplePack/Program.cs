@@ -1,6 +1,10 @@
 ﻿
 using SimplePack;
 
+//string dataSource = @"";
+//string database= "SimplePack";
+//string connString=@"Data Source="+dataSource+";Initial Catalog="+database+";Integrated Security=True";
+
 Console.WriteLine("Welcome to SimplePack!");
 Thread.Sleep(2000);
 Console.Clear();

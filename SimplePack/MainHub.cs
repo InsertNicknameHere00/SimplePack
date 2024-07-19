@@ -8,10 +8,11 @@ namespace SimplePack
 {
     internal class MainHub
     {
-        // Options for the user to choose from (Pushed into a String array)
-        String[] options = new String[] {
+        // Options for the user to choose from (Pushed into a string array)
+        List<string> options = new List<string>(){
             "1. Calculator",
             "2. Dice Roller",
+            "3. Journal",
             "0. Exit"
         };
 
@@ -19,6 +20,12 @@ namespace SimplePack
             Console.Clear();
             Calculator calculator = new Calculator();
             calculator.calculatorEnterCheck();
+        }
+
+        public void EnterJournal() {
+            Console.Clear();
+            Journal journal = new Journal();
+            journal.JournalEnterCheck();
         }
 
         public void LeaveApp() {
@@ -36,9 +43,15 @@ namespace SimplePack
         }
 
         public void StartHub() {
+            Console.Clear();
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("\r\n  __  __       _         _    _       _     \r\n |  \\/  |     (_)       | |  | |     | |    \r\n | \\  / | __ _ _ _ __   | |__| |_   _| |__  \r\n | |\\/| |/ _` | | '_ \\  |  __  | | | | '_ \\ \r\n | |  | | (_| | | | | | | |  | | |_| | |_) |\r\n |_|  |_|\\__,_|_|_| |_| |_|  |_|\\__,_|_.__/ \r\n                                            \r\n                                            \r\n");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine();
             Console.WriteLine("What do you want to do?");
+            Console.WriteLine();
 
-            foreach (String option in options)
+            foreach (string option in options)
             {
                 Console.WriteLine(option);
             }
@@ -54,6 +67,10 @@ namespace SimplePack
 
                     case 2:
                     EnterDice();
+                    break;
+
+                case 3:
+                    EnterJournal();
                     break;
 
                 case 0:

@@ -12,3 +12,4 @@ C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\refint\Simple
 C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.pdb
 C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.genruntimeconfig.cache
 C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\ref\SimplePack.dll
+C:\Users\Rosen\source\repos\SimplePack\SimplePack\obj\Debug\net8.0\SimplePack.sourcelink.json
