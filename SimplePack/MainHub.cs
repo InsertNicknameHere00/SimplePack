@@ -13,6 +13,7 @@ namespace SimplePack
             "1. Calculator",
             "2. Dice Roller",
             "3. Journal",
+            "4. Deal Or no Deal",
             "0. Exit"
         };
 
@@ -26,6 +27,12 @@ namespace SimplePack
             Console.Clear();
             Journal journal = new Journal();
             journal.JournalEnterCheck();
+        }
+
+        public void EnterDeal() {
+            Console.Clear();
+            DealOrNoDeal dealOrNoDeal = new DealOrNoDeal();
+            dealOrNoDeal.EnterDeal();
         }
 
         public void LeaveApp() {
@@ -71,6 +78,10 @@ namespace SimplePack
 
                 case 3:
                     EnterJournal();
+                    break;
+
+                case 4:
+                    EnterDeal();
                     break;
 
                 case 0:

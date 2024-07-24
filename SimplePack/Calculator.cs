@@ -23,16 +23,16 @@ namespace SimplePack
                 calculator();
                 break;
 
-                    case "N":
+            case "y":
+                    calculator();
+                    break;
+
+            case "N":
                     Console.Clear();
                         StartHub();
                         break;
 
-                    case "y":
-                    calculator();
-                        break;
-
-                case "n":
+            case "n":
                     Console.Clear();
                     StartHub();
                     break;

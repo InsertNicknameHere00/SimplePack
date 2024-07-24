@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimplePack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35b0fe056096cc484a3f9e5774402943ebac128a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bc52e7c2b3beda0f788d051afe21054efe5c382")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimplePack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimplePack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
